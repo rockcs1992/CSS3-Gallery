@@ -2,16 +2,11 @@
   border: 6px solid #eee;
   border-radius: 50%;
   border-top: 6px solid #6db5f1;
-  width: 20px;
-  height: 20px;
-  -webkit-animation: spinner 2s linear infinite;
+  width: 40px;
+  height: 40px;
   animation: spinner 2s linear infinite; 
 }
 
- @-webkit-keyframes spinner {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
 
 @keyframes spinner {
   0% { transform: rotate(0deg); }

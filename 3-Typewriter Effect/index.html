@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+  	<h3>Typewriter effect using CSS3</h3>
+		<p class='type-writer'>HTML
+		<span>|</span></p> 
+  </body>
+  <script>
+  	var data = ['HTML','CSS','Javascript'];
+  	var text = document.getElementsByTagName('p')[0].childNodes[0];
+  	var i = 1;
+  	setInterval(function(){
+      text.nodeValue = data[i];
+      i++;
+      if(i>2){
+      	i=0;
+      }
+      
+    },2501);  
+  </script>
+</html>
+
+
+
